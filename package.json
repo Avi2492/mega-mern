@@ -5,13 +5,18 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "npm start index.js"
+    "dev": "nodemon src/index.js",
+    "start": "npm start src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Avinash Pandey",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.0"
   }
 }
