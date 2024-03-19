@@ -14,6 +14,7 @@ const connectToDB = async (req, res) => {
 };
 
 export default connectToDB;
+
 /**
  * (async () => {
   try {
